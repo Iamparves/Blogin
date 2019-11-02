@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+a{
+    text-decoration: none;
+}
+.fix{
+    overflow: hidden;
+}
+.container_full{
+    width: 100%;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    display: block;
+}
+.header_bg{
+    background: #292929;
+}
+.header .logo_left{
+    float: left;
+}
+.header .logo_left h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 45px;
+}
+.header nav{
+    float: right;
+}
+.header nav .menu{
+    list-style: none;
+}
+.header nav .menu li{
+    float: left;
+    border-right: 1px solid #1e1e1e;
+}
+.header nav .menu li:first-child{
+    border-left: 1px solid #1e1e1e;
+}
+.header nav .menu li a{
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 60px 40px;
+    border-bottom: 5px solid #1e1e1e;
+    transition: .2s;
+}
+.header nav .menu li a:hover{
+    border-bottom: 5px solid #41c84e;
+    color: #41c84e;
+}
+.header nav .menu li.active a{
+    border-bottom: 5px solid #41c84e;
+    color: #41c84e;
+}
+.content_wrapper_bg{
+    border-top: 5px solid #1e1e1e;
+    border-bottom: 1px solid #e1e0e0;
+    margin-top: -5px;
+}
+.content_wrapper{
+    border-right: 1px solid #e1e0e0;
+    border-left: 1px solid #e1e0e0;
+    overflow: hidden;
+    padding-top: 75px;
+}
+.left_content{
+    width: 620px;
+    float: left;
+}
+.left_content .single_post_wrapper{
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.left_content .single_post_wrapper img{
+    width: 620px;
+    height: 310px;
+}
+.left_content .single_post_wrapper h2{
+    text-transform: uppercase;
+    color: #4f4e4e;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.left_content .single_post_wrapper p{
+    color: #606060;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.left_content .single_post_wrapper .continuer{
+    color: #c2c1c1;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 2px solid #c2c2c2;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+    transition: .1s;
+}
+.left_content .single_post_wrapper .continuer:hover{
+    color: #41c84e;
+    border-color: #41c84e;
+}
+.sidebar{
+    width: 280px;
+    float: right;
+}
+.sidebar .single_sidebar h2{
+    color: #696969;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-left: 3px solid #41c84e;
+    background: #F8F8F8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sidebar .single_sidebar p{
+    color: #737373;
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+.sidebar .single_sidebar .search_box{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e1e0e0;
+    margin-bottom: 80px;
+    padding-left: 20px;
+}
+.email_submit{
+    position: relative;
+}
+.email_submit input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e1e0e0;
+    padding-left: 20px;
+}
+.email_submit input[type="submit"]{
+    float: right;
+    background: url(../img/emailsubmit.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    border: none;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+.content_bottom{
+    border: 1px solid #e1e0e0;
+    border-bottom: 0;
+    padding: 30px;
+    overflow: hidden;
+}
+.content_bottom a{
+    color: #818181;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: .1s;
+}
+.content_bottom a:hover{
+    color: #41c84e;
+}
+.content_bottom .previous{
+    float: left;
+}
+.content_bottom .next{
+    float: right;
+}
+.footer{
+    padding: 75px;
+    text-align: center;
+}
+.footer h1{
+    color: #292929;
+    font-weight: bold;
+    font-size: 40px;
+}
+.footer p{
+    color: #292929;
+    font-size: 13px;
+    margin: 30px 0 40px;
+}
+.footer .social_area ul{
+    list-style: none;
+}
+.footer .social_area ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer .social_area ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    transition: .3s;
+}
+.footer .social_area ul li.facebook a{
+    background: url(../img/fb1.png) no-repeat;
+}
+.footer .social_area ul li.facebook a:hover{
+    background: url(../img/fb.png);
+}
+.footer .social_area ul li.twitter a{
+    background: url(../img/tw.png) no-repeat;
+}
+.footer .social_area ul li.twitter a:hover{
+    background: url(../img/tw1.png);
+}
